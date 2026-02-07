@@ -71,3 +71,24 @@
     transition: background 0.3s ease;
 }
 
+@media (max-width: 768px) {
+
+.products {
+    margin-top: 10vh; 
+    margin-bottom: 20px; 
+    width: 87.5vw;
+}
+
+.product {
+    width: 48%;
+    height: 220px;
+}
+
+.productOverlay {
+    text-align: center;
+    width: 80%;
+    height: 20px;
+    border-radius: 8px 8px 0px 0px;
+}
+
+}
