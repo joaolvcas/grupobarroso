@@ -71,7 +71,7 @@
     transition: background 0.3s ease;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 950px) {
 
 .products {
     margin-top: 10vh; 
@@ -81,7 +81,7 @@
 
 .product {
     width: 48%;
-    height: 220px;
+    height: 25vh;
 }
 
 .productOverlay {
