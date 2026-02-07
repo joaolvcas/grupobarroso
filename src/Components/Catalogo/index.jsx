@@ -1,5 +1,5 @@
 import BrandOptions from './BrandsOptions'
-import './Catalogo.css'
+import './catalogo.css'
 import Products from './Products'
 
 
