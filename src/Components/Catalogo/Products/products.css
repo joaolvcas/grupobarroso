@@ -1,0 +1,40 @@
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10vh; 
+    margin-bottom: 20px; 
+    width: 87.5vw;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+    width: 23%;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.padrao {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.name {
+    position: relative;
+    width: 50%;
+    height: 5%;
+    background-color: red;
+}
+
+
+.product:hover {
+       border: 2px solid rgb(224, 101, 0);
+}

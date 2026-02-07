@@ -1,0 +1,20 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 90px;
+    background-color: #201e1f;
+}
+
+.Logo {
+    margin-left: 2%;
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.LogoAniversario {
+    margin-right: 2%;
+    max-width: 70%;
+    max-height: 70%;
+}

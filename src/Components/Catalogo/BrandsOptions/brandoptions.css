@@ -1,0 +1,79 @@
+.brandoptions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+    background-color: rgb(233, 233, 233);
+    border: 2px solid rgb(75, 75, 75);
+    border-radius: 60px;
+}
+
+
+.option {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 80px;
+    margin-right: 2px;
+    background-color: #fff;
+    border: 2px solid rgb(100, 100, 100);
+    border-radius: 50px;
+
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+
+    .brandoptions {
+        display: flex;
+        width: 85%;
+        height: 40px;
+        justify-content: center;
+        gap: 1px;
+        border-radius: 20px;
+    }
+
+    .option {
+        width: 70px;
+        height: 100%;
+        border-radius: 20px;
+    }
+
+}
+
+
+.option:hover {
+       border: 2px solid rgb(224, 101, 0);
+}
+
+.option.active {
+    width: 180px;
+    border-radius: 50px;
+    border: 2px solid orange;
+}
+
+#arauco {
+    width: 85%;
+    height: 85%;
+    object-fit: contain;
+}
+
+#duratex {
+    width: 75%;
+    height: 75%;
+    object-fit: contain;
+}
+
+#fibraplac {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.logoMiniatura {
+    width: 60%;
+    height: 60%;
+    object-fit: contain;
+}

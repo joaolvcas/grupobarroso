@@ -1,0 +1,92 @@
+[
+  {
+    "id": "poente",
+    "textura": "tear",
+    "nome": "Poente",
+    "src": "placasdobrasil/poentetear.png"
+  },
+  {
+    "id": "elmopalmareslinheiro",
+    "textura": "linheiro",
+    "nome": "Elmo Palmares",
+    "src": "placasdobrasil/elmopalmareslinheiro.png"
+  },
+  {
+    "id": "nogueiracaiapolinheiro",
+    "textura": "linheiro",
+    "nome": "Nogueira Caiapó",
+    "src": "placasdobrasil/nogueiracaiapolinheiro.png"
+  },
+  {
+    "id": "acacianativa",
+    "textura": "nativa",
+    "nome": "Acácia",
+    "src": "placasdobrasil/acacianativa.png"
+  },
+  {
+    "id": "perobadobrasilnativa",
+    "textura": "nativa",
+    "nome": "Peroba do Brasil",
+    "src": "placasdobrasil/perobadobrasilnativa.png"
+  },
+  {
+    "id": "jequitibareinativa",
+    "textura": "nativa",
+    "nome": "Jequitibá Rei",
+    "src": "placasdobrasil/jequitibareinativa.png"
+  },
+  {
+    "id": "freijoporonatural",
+    "textura": "poro natural",
+    "nome": "Freijó",
+    "src": "placasdobrasil/freijoporonatural.png"
+  },
+  {
+    "id": "manteigadecacaupele",
+    "textura": "pele",
+    "nome": "Manteiga de Cacau",
+    "src": "placasdobrasil/manteigadecacaupele.png"
+  },
+  {
+    "id": "castanhadecajupele",
+    "textura": "pele",
+    "nome": "Castanha de Cajú",
+    "src": "placasdobrasil/castanhadecajupele.png"
+  },
+  {
+    "id": "cinzarealpele",
+    "textura": "pele",
+    "nome": "Cinza Real",
+    "src": "placasdobrasil/cinzarealpele.png"
+  },
+  {
+    "id": "selvapele",
+    "textura": "pele",
+    "nome": "Selva",
+    "src": "placasdobrasil/selvapele.png"
+  },
+  {
+    "id": "castanhadecajutear",
+    "textura": "tear",
+    "nome": "Castanha de Cajú",
+    "src": "placasdobrasil/castanhadecajutear.png"
+  },
+  {
+    "id": "pitangatear",
+    "textura": "tear",
+    "nome": "Pitanga",
+    "src": "placasdobrasil/pitangatear.jpg"
+  },
+  {
+    "id": "cafetorradotear",
+    "textura": "tear",
+    "nome": "Café Torrado",
+    "src": "placasdobrasil/cafetorradotear.png"
+  },
+  {
+    "id": "pimentadoreinotear",
+    "textura": "tear",
+    "nome": "Pimenta do Reino",
+    "src": "placasdobrasil/pimentadoreinotear.png"
+  }
+]
