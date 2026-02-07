@@ -16,6 +16,9 @@ function Products() {
             alt={padrao.nome}
             className="padrao"
           />
+          <div className="productOverlay">
+            <p>{padrao.nome}</p>
+          </div>
         </div>
         ))}
     </div>
