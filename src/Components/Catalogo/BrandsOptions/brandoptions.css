@@ -28,7 +28,7 @@
 
     .brandoptions {
         display: flex;
-        width: 85%;
+        width: max-content;
         height: 65px;
         justify-content: center;
         gap: 1px;
