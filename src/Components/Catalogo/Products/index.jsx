@@ -1,17 +1,20 @@
 import "./products.css";
 import PlacasDoBrasil from '../../../Data/mdfs.json'
+import Modal from "../../Modal/index.jsx";
 
+import { useState } from "react";
 import { FiArrowUp  } from "react-icons/fi";
 import { useContext } from "react";
 import { GlobalContext } from "../../../context/GlobalContext";
 
 function Products() {
+  const [selectedProduct, setSelectedProduct] = useState(null);
   const { setBrand } = useContext(GlobalContext);
 
   return (
     <div className="products">
         {PlacasDoBrasil.map((padrao) => (
-        <div key={padrao.id} className="product">
+        <div key={padrao.id} className="product" onClick={() => setSelectedProduct(padrao)} >
             <img
             src={padrao.src}
             alt={padrao.nome}
@@ -25,6 +28,11 @@ function Products() {
           </div>
         </div>
         ))}
+        <Modal
+        isOpen={!!selectedProduct}
+        onClose={() => setSelectedProduct(null)}
+        Product={selectedProduct ?? { src: "", nome: ""}}
+      />
     </div>
   );
 }

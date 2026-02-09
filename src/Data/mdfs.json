@@ -3,90 +3,151 @@
     "id": "poente",
     "textura": "tear",
     "nome": "Poente",
-    "src": "placasdobrasil/poentetear.png"
+    "src": "placasdobrasil/poentetear.png",
+    "marca": {
+      "nome": "Placas do Brasil",
+      "src":  "placasdobrasil/placasdobrasil.png"
+    }
   },
   {
     "id": "elmopalmareslinheiro",
     "textura": "linheiro",
     "nome": "Elmo Palmares",
-    "src": "placasdobrasil/elmopalmareslinheiro.png"
+    "src": "placasdobrasil/elmopalmareslinheiro.png",
+    "marca": {
+      "nome": "Placas do Brasil",
+      "src":  "placasdobrasil/placasdobrasil.png"
+    }
   },
   {
     "id": "nogueiracaiapolinheiro",
     "textura": "linheiro",
     "nome": "Nogueira Caiapó",
-    "src": "placasdobrasil/nogueiracaiapolinheiro.png"
+    "src": "placasdobrasil/nogueiracaiapolinheiro.png",
+    "marca": {
+      "nome": "Placas do Brasil",
+      "src":  "placasdobrasil/placasdobrasil.png"
+    }
   },
   {
     "id": "acacianativa",
     "textura": "nativa",
     "nome": "Acácia",
-    "src": "placasdobrasil/acacianativa.png"
+    "src": "placasdobrasil/acacianativa.png",
+    "marca": {
+      "nome": "Placas do Brasil",
+      "src":  "placasdobrasil/placasdobrasil.png"
+    }
   },
   {
     "id": "perobadobrasilnativa",
     "textura": "nativa",
     "nome": "Peroba do Brasil",
-    "src": "placasdobrasil/perobadobrasilnativa.png"
+    "src": "placasdobrasil/perobadobrasilnativa.png",
+    "marca": {
+      "nome": "Placas do Brasil",
+      "src":  "placasdobrasil/placasdobrasil.png"
+    }
   },
   {
     "id": "jequitibareinativa",
     "textura": "nativa",
     "nome": "Jequitibá Rei",
-    "src": "placasdobrasil/jequitibareinativa.png"
+    "src": "placasdobrasil/jequitibareinativa.png",
+    "marca": {
+      "nome": "Placas do Brasil",
+      "src":  "placasdobrasil/placasdobrasil.png"
+    }
   },
   {
     "id": "freijoporonatural",
     "textura": "poro natural",
     "nome": "Freijó",
-    "src": "placasdobrasil/freijoporonatural.png"
+    "src": "placasdobrasil/freijoporonatural.png",
+    "marca": {
+      "nome": "Placas do Brasil",
+      "src":  "placasdobrasil/placasdobrasil.png"
+    }
   },
   {
     "id": "manteigadecacaupele",
     "textura": "pele",
     "nome": "Manteiga de Cacau",
-    "src": "placasdobrasil/manteigadecacaupele.png"
+    "src": "placasdobrasil/manteigadecacaupele.png",
+    "marca": {
+      "nome": "Placas do Brasil",
+      "src":  "placasdobrasil/placasdobrasil.png"
+    }
   },
   {
     "id": "castanhadecajupele",
     "textura": "pele",
     "nome": "Castanha de Cajú",
-    "src": "placasdobrasil/castanhadecajupele.png"
+    "src": "placasdobrasil/castanhadecajupele.png",
+    "marca": {
+      "nome": "Placas do Brasil",
+      "src":  "placasdobrasil/placasdobrasil.png"
+    }
   },
   {
     "id": "cinzarealpele",
     "textura": "pele",
     "nome": "Cinza Real",
-    "src": "placasdobrasil/cinzarealpele.png"
+    "src": "placasdobrasil/cinzarealpele.png",
+    "marca": {
+      "nome": "Placas do Brasil",
+      "src":  "placasdobrasil/placasdobrasil.png"
+    }
   },
   {
     "id": "selvapele",
     "textura": "pele",
     "nome": "Selva",
-    "src": "placasdobrasil/selvapele.png"
+    "src": "placasdobrasil/selvapele.png",
+    "marca": {
+      "nome": "Placas do Brasil",
+      "src":  "placasdobrasil/placasdobrasil.png"
+    }
   },
   {
     "id": "castanhadecajutear",
     "textura": "tear",
     "nome": "Castanha de Cajú",
-    "src": "placasdobrasil/castanhadecajutear.png"
+    "src": "placasdobrasil/castanhadecajutear.png",
+    "marca": {
+      "nome": "Placas do Brasil",
+      "src":  "placasdobrasil/placasdobrasil.png"
+    }
   },
   {
     "id": "pitangatear",
     "textura": "tear",
     "nome": "Pitanga",
-    "src": "placasdobrasil/pitangatear.jpg"
+    "src": "placasdobrasil/pitangatear.jpg",
+    "marca": {
+      "nome": "Placas do Brasil",
+      "src":  "placasdobrasil/placasdobrasil.png"
+    }
   },
   {
     "id": "cafetorradotear",
     "textura": "tear",
     "nome": "Café Torrado",
-    "src": "placasdobrasil/cafetorradotear.png"
+    "src": "placasdobrasil/cafetorradotear.png",
+    "marca": {
+      "nome": "Placas do Brasil",
+      "src":  "placasdobrasil/placasdobrasil.png"
+    }
   },
   {
     "id": "pimentadoreinotear",
     "textura": "tear",
     "nome": "Pimenta do Reino",
-    "src": "placasdobrasil/pimentadoreinotear.png"
+    "src": "placasdobrasil/pimentadoreinotear.png",
+    "miniatura": "placasdobrasil/pitangaMiniatura.png",
+    "marca": {
+      "nome": "Placas do Brasil",
+      "src":  "placasdobrasil/placasdobrasil.png"
+    }
   }
 ]
