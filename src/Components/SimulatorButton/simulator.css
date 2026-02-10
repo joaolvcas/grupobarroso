@@ -1,0 +1,26 @@
+.Button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    height: 60px;
+    width: 90%;
+    border-radius: 25px;
+    border: none;
+
+    background: linear-gradient(135deg, #ff8c00, #f87000);
+    color: white;
+
+    box-shadow: 0 4px 15px rgba(248, 112, 0, 0.4);
+}
+
+.Button:hover {
+    background-position: right center;
+    transform: scale(1.03);
+}
+
+.NameButton {
+    font-size: 26px;
+    font-weight: 600;
+}

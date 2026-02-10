@@ -1,3 +1,4 @@
+import SimulatorButton from "../SimulatorButton";
 import "./modal.css";
 
 import { FiArrowDown  } from "react-icons/fi";
@@ -22,15 +23,15 @@ function Modal({ isOpen, onClose, children, Product }) {
           />
           <div className="ProductName">
              <h1>{Product?.nome}</h1>
-             <p className="textura">{`/${Product?.textura}`}</p>
+             <p className="textura" >{`/${Product?.textura}`}</p>
           </div>
           <div className="ProductBrand"> 
-          <img
-            src={Product?.marca?.src}
-            className="BrandImage"
-          />
+            <img
+              src={Product?.marca?.src}
+              className="BrandImage"
+            />
           </div>
-
+          <SimulatorButton title={"Simular Ambientes"} />
       </div>
     </>
   );
