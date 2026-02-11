@@ -1,4 +1,5 @@
 import SimulatorButton from "../SimulatorButton";
+import Whatssap from "../Whatssap";
 import "./modal.css";
 
 import { FiArrowDown  } from "react-icons/fi";
@@ -13,9 +14,12 @@ function Modal({ isOpen, onClose, children, Product }) {
       />
 
       <div className={`modal ${isOpen ? "active" : ""}`}>
-        <div className={`${isOpen ? "" : "isClosed"}`} onClick={onClose}>
+
+        <div className="modalContent">
+          <div className="modalInner">
+          <div className={`${isOpen ? "" : "isClosed"}`} onClick={onClose}>
             <FiArrowDown  size={40} color="f87000" />
-        </div>
+          </div>
            <img
             src={Product?.src}
             alt={Product?.nome}
@@ -32,6 +36,9 @@ function Modal({ isOpen, onClose, children, Product }) {
             />
           </div>
           <SimulatorButton title={"Simular Ambientes"} />
+          <Whatssap mdf={Product?.nome}/>
+          </div>
+        </div>
       </div>
     </>
   );
