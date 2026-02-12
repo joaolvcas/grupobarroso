@@ -1,5 +1,8 @@
 import "./products.css";
-import PlacasDoBrasil from '../../../Data/mdfs.json'
+
+import PlacasDoBrasil from '../../../Data/placasdobrasil.json'
+import Arauco from '../../../Data/arauco.json'
+
 import Modal from "../../Modal/index.jsx";
 
 import { useState } from "react";
@@ -11,9 +14,16 @@ function Products() {
   const [selectedProduct, setSelectedProduct] = useState(null);
   const { brand, setBrand } = useContext(GlobalContext);
 
+    const productsData =
+    brand === "placas"
+      ? PlacasDoBrasil
+      : brand === "arauco"
+      ? Arauco
+      : [];
+
   return (
     <div className="products">
-        {PlacasDoBrasil.map((padrao) => (
+        {productsData.map((padrao) => (
         <div key={padrao.id} className="product" onClick={() => setSelectedProduct(padrao)} >
             <img
             src={padrao.src}

@@ -103,7 +103,7 @@
       "id": "caffelate",
       "textura": "matt",
       "nome": "Caffelate",
-      "src": "arauco/caffelatematt.jpg",
+      "src": "arauco/caffelatematt.webp",
       "marca": {
         "nome": "Arauco",
         "src":  "arauco/arauco.png"
@@ -173,7 +173,7 @@
       "id": "cristalina",
       "textura": "matt",
       "nome": "Cristalina",
-      "src": "arauco/cristalinamatt.jpg",
+      "src": "arauco/cristalinamatt.webp",
       "marca": {
         "nome": "Arauco",
         "src":  "arauco/arauco.png"
@@ -233,7 +233,7 @@
       "id": "grafito",
       "textura": "chess",
       "nome": "Grafito",
-      "src": "arauco/grafitochess.jpg",
+      "src": "arauco/grafitochess.webp",
       "marca": {
         "nome": "Arauco",
         "src":  "arauco/arauco.png"
@@ -273,7 +273,7 @@
       "id": "jequitiba",
       "textura": "trend",
       "nome": "Jequitiba",
-      "src": "arauco/jequitibatrend.jpg",
+      "src": "arauco/jequitibatrend.jpeg",
       "marca": {
         "nome": "Arauco",
         "src":  "arauco/arauco.png"
@@ -283,7 +283,7 @@
       "id": "kashimir",
       "textura": "chess",
       "nome": "Kashimir",
-      "src": "arauco/kashimirchess.jpg",
+      "src": "arauco/kashimirchess.webp",
       "marca": {
         "nome": "Arauco",
         "src":  "arauco/arauco.png"
@@ -293,7 +293,7 @@
       "id": "lavanda",
       "textura": "matt",
       "nome": "Lavanda",
-      "src": "arauco/lavandamatt.jpg",
+      "src": "arauco/lavandamatt.jpeg",
       "marca": {
         "nome": "Arauco",
         "src":  "arauco/arauco.png"
@@ -453,7 +453,7 @@
       "id": "salvia",
       "textura": "matt",
       "nome": "Salvia",
-      "src": "arauco/salviamatt.jpg",
+      "src": "arauco/salviamatt.webp",
       "marca": {
         "nome": "Arauco",
         "src":  "arauco/arauco.png"
@@ -463,7 +463,7 @@
       "id": "silicio",
       "textura": "vert",
       "nome": "Silicio",
-      "src": "arauco/siliciovert.jpg",
+      "src": "arauco/siliciovert.webp",
       "marca": {
         "nome": "Arauco",
         "src":  "arauco/arauco.png"
