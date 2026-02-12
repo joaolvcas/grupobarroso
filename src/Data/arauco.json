@@ -1,0 +1,492 @@
+[
+    {
+      "id": "amendoeira",
+      "textura": "bold",
+      "nome": "Amendoeira",
+      "src": "arauco/amendoeirabold.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "areal",
+      "textura": "bold",
+      "nome": "Areal",
+      "src": "arauco/arealbold.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "atenna",
+      "textura": "liso",
+      "nome": "Atenna",
+      "src": "arauco/atennaliso.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "atlantica",
+      "textura": "trend",
+      "nome": "Atlantica",
+      "src": "arauco/atlanticatrend.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "azulsereno",
+      "textura": "matt",
+      "nome": "Azul Sereno",
+      "src": "arauco/azulserenomatt.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "bambu",
+      "textura": "nature",
+      "nome": "Bambu",
+      "src": "arauco/bambunature.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "beige",
+      "textura": "matt",
+      "nome": "Beige",
+      "src": "arauco/beigematt.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "beton",
+      "textura": "matt",
+      "nome": "Beton",
+      "src": "arauco/betonmatt.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "bufalo",
+      "textura": "couro",
+      "nome": "Búfalo",
+      "src": "arauco/bufalocouro.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "cacao",
+      "textura": "matt",
+      "nome": "Cacao",
+      "src": "arauco/cacaomatt.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "caffelate",
+      "textura": "matt",
+      "nome": "Caffelate",
+      "src": "arauco/caffelatematt.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "canela",
+      "textura": "chess",
+      "nome": "Areal",
+      "src": "arauco/canelachess.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "canelato",
+      "textura": "chess",
+      "nome": "Canelato",
+      "src": "arauco/canelatochess.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "carvalho",
+      "textura": "poro",
+      "nome": "Areal",
+      "src": "arauco/carvalhoporo.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "cerrado",
+      "textura": "bold",
+      "nome": "Cerrado",
+      "src": "arauco/cerradobold.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "cinzacristal",
+      "textura": "chess",
+      "nome": "Areal",
+      "src": "arauco/cinzacristalchess.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "cinzapuro",
+      "textura": "matt",
+      "nome": "Cinza Puro",
+      "src": "arauco/cinzapuromatt.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "cristalina",
+      "textura": "matt",
+      "nome": "Cristalina",
+      "src": "arauco/cristalinamatt.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "cumaru",
+      "textura": "trend",
+      "nome": "Cumaru",
+      "src": "arauco/cumarutrend.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "damasco",
+      "textura": "matt",
+      "nome": "Areal",
+      "src": "arauco/dasmascomatt.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "areal",
+      "textura": "bold",
+      "nome": "Areal",
+      "src": "arauco/arealbold.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "ebano",
+      "textura": "chess",
+      "nome": "Ebano",
+      "src": "arauco/ebanochess.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "frape",
+      "textura": "matt",
+      "nome": "Frapê",
+      "src": "arauco/frapematt.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "grafito",
+      "textura": "chess",
+      "nome": "Grafito",
+      "src": "arauco/grafitochess.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "gris",
+      "textura": "chess",
+      "nome": "Areal",
+      "src": "arauco/grischess.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "ipereal",
+      "textura": "trend",
+      "nome": "Ipê Real",
+      "src": "arauco/iperealtrend.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "jalapao",
+      "textura": "matt",
+      "nome": "Jalapão",
+      "src": "arauco/jalapaomatt.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "jequitiba",
+      "textura": "trend",
+      "nome": "Jequitiba",
+      "src": "arauco/jequitibatrend.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "kashimir",
+      "textura": "chess",
+      "nome": "Kashimir",
+      "src": "arauco/kashimirchess.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "lavanda",
+      "textura": "matt",
+      "nome": "Lavanda",
+      "src": "arauco/lavandamatt.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "lino",
+      "textura": "chess",
+      "nome": "Lino",
+      "src": "arauco/linochess.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "linopiombo",
+      "textura": "chess",
+      "nome": "Lino Piombo",
+      "src": "arauco/linopiombochess.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "lourofreijo",
+      "textura": "poro",
+      "nome": "Louro Freijó",
+      "src": "arauco/lourofreijoporo.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "madeiral",
+      "textura": "vert",
+      "nome": "Madeiral",
+      "src": "arauco/madeiralvert.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "maragogi",
+      "textura": "matt",
+      "nome": "Maragogi",
+      "src": "arauco/maragogimatt.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "marau",
+      "textura": "bold",
+      "nome": "Maraú",
+      "src": "arauco/maraubold.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "nocenaturale",
+      "textura": "nature",
+      "nome": "Noce Naturale",
+      "src": "arauco/nocenaturalenature.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "nogalterracota",
+      "textura": "bold",
+      "nome": "Nogal Terracota",
+      "src": "arauco/nogalterracotabold.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "nordic",
+      "textura": "trend",
+      "nome": "Nordic",
+      "src": "arauco/nordictrend.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "oceano",
+      "textura": "matt",
+      "nome": "Oceano",
+      "src": "arauco/oceanomatt.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "orla",
+      "textura": "vert",
+      "nome": "Orla",
+      "src": "arauco/orlavert.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "pauferro",
+      "textura": "trend",
+      "nome": "Pau Ferro",
+      "src": "arauco/pauferrotrend.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "petar",
+      "textura": "bold",
+      "nome": "Petar",
+      "src": "arauco/petarbold.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "reali",
+      "textura": "liso",
+      "nome": "Reali",
+      "src": "arauco/realiliso.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "salrosa",
+      "textura": "matt",
+      "nome": "Sal Rosa",
+      "src": "arauco/salrosamatt.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "salvia",
+      "textura": "matt",
+      "nome": "Salvia",
+      "src": "arauco/salviamatt.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "silicio",
+      "textura": "vert",
+      "nome": "Silicio",
+      "src": "arauco/siliciovert.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "tekaartico",
+      "textura": "nature",
+      "nome": "Teka Ártico",
+      "src": "arauco/tekarticonature.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "verdejade",
+      "textura": "matt",
+      "nome": "Verde Jade",
+      "src": "arauco/verdejadematt.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    }
+]

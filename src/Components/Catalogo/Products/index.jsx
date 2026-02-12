@@ -9,7 +9,7 @@ import { GlobalContext } from "../../../context/GlobalContext";
 
 function Products() {
   const [selectedProduct, setSelectedProduct] = useState(null);
-  const { setBrand } = useContext(GlobalContext);
+  const { brand, setBrand } = useContext(GlobalContext);
 
   return (
     <div className="products">
