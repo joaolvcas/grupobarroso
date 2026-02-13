@@ -1,0 +1,73 @@
+[
+    {
+      "id": "brancodiamante",
+      "textura": "cristalo",
+      "nome": "Branco Diamante",
+      "src": "duratex/brancodiamante.jpg",
+      "marca": {
+        "nome": "Duratex",
+        "src":  "duratex/duratex.png"
+      }
+    },
+    {
+      "id": "brancotrama",
+      "textura": "trama",
+      "nome": "Branco",
+      "src": "duratex/brancotrama.jpg",
+      "marca": {
+        "nome": "Duratex",
+        "src":  "duratex/duratex.png"
+      }
+    },
+    {
+      "id": "cinzasagrado",
+      "textura": "cristalo",
+      "nome": "Cinza Sagrado",
+      "src": "duratex/cinzasagrado.jpg",
+      "marca": {
+        "nome": "Duratex",
+        "src":  "duratex/duratex.png"
+      }
+    },
+    {
+      "id": "gianduia",
+      "textura": "cristalo",
+      "nome": "Gianduia",
+      "src": "duratex/gianduia.webp",
+      "marca": {
+        "nome": "Duratex",
+        "src":  "duratex/duratex.png"
+      }
+    },
+    {
+      "id": "opala",
+      "textura": "cristalo",
+      "nome": "Opala",
+      "src": "duratex/opala.webp",
+      "marca": {
+        "nome": "Duratex",
+        "src":  "duratex/duratex.png"
+      }
+    },
+    {
+      "id": "preto",
+      "textura": "cristalo",
+      "nome": "Preto",
+      "src": "duratex/preto.jpg",
+      "marca": {
+        "nome": "Duratex",
+        "src":  "duratex/duratex.png"
+      }
+    },
+    {
+      "id": "titanio",
+      "textura": "cristalo",
+      "nome": "Titânio",
+      "src": "duratex/titanio.jpg",
+      "marca": {
+        "nome": "Duratex",
+        "src":  "duratex/duratex.png"
+      }
+    }
+
+]

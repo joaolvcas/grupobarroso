@@ -3,6 +3,7 @@ import "./products.css";
 import PlacasDoBrasil from '../../../Data/placasdobrasil.json'
 import Arauco from '../../../Data/arauco.json'
 import Fibraplac from '../../../Data/fibraplac.json'
+import Duratex from '../../../Data/duratex.json'
 
 import Modal from "../../Modal/index.jsx";
 
@@ -22,6 +23,8 @@ function Products() {
       ? Arauco
       : brand === "fibraplac"
       ? Fibraplac
+      : brand === "duratex"
+      ? Duratex
       : [];
 
   return (
