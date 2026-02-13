@@ -94,3 +94,19 @@
     font-size: 26px;
 }
 
+.attention {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 90%;
+    margin-bottom: 16px;
+    border-radius: 25px;
+    background-color: rgba(255, 87, 87, 0.692);
+}
+
+.attentionText {
+    padding: 0 8px;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+}

@@ -2,7 +2,7 @@ import SimulatorButton from "../SimulatorButton";
 import Whatssap from "../Whatssap";
 import "./modal.css";
 
-import { FiArrowDown  } from "react-icons/fi";
+import { FiArrowDown, FiAlertCircle  } from "react-icons/fi";
 
 function Modal({ isOpen, onClose, children, Product }) {
     console.log(Product)
@@ -35,6 +35,17 @@ function Modal({ isOpen, onClose, children, Product }) {
               className="BrandImage"
             />
           </div>
+          {Product?.descontinuado ? 
+                  <div className="attention">
+          <p className="attentionText">
+           <FiAlertCircle size={25} color="#fd0000" style={{ marginRight: "8px" }} />
+             <strong>Recado:</strong> Esse padrão foi descontinuado do nosso catálogo de MDFs decorativos. 
+              Para verificar a disponibilidade em estoque, consulte um de nossos vendedores.
+          </p>
+          </div> : <></>
+          }
+
+
           <SimulatorButton title={"Simular Ambientes"} />
           <Whatssap mdf={Product?.nome}/>
           </div>
