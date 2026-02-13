@@ -1,0 +1,63 @@
+[
+    {
+      "id": "mocca",
+      "textura": "versátil",
+      "nome": "Mocca",
+      "src": "fibraplac/mocca.jpg",
+      "marca": {
+        "nome": "Fibraplac",
+        "src":  "fibraplac/fibraplac.png"
+      }
+    },
+        {
+      "id": "panna",
+      "textura": "versátil",
+      "nome": "Panna",
+      "src": "fibraplac/panna.png",
+      "marca": {
+        "nome": "Fibraplac",
+        "src":  "fibraplac/fibraplac.png"
+      }
+    },
+        {
+      "id": "versato",
+      "textura": "versátil",
+      "nome": "Versato",
+      "src": "fibraplac/versato.jpg",
+      "marca": {
+        "nome": "Fibraplac",
+        "src":  "fibraplac/fibraplac.png"
+      }
+    },
+        {
+      "id": "murano",
+      "textura": "legno fino",
+      "nome": "Murano",
+      "src": "fibraplac/murano.jpg",
+      "marca": {
+        "nome": "Fibraplac",
+        "src":  "fibraplac/fibraplac.png"
+      }
+    },
+        {
+      "id": "carvalhotropical",
+      "textura": "legno fino",
+      "nome": "Carvalho Tropical",
+      "src": "fibraplac/carvalhotropical.jpg",
+      "marca": {
+        "nome": "Fibraplac",
+        "src":  "fibraplac/fibraplac.png"
+      }
+    },
+        {
+      "id": "freijonatura",
+      "textura": "legno fino",
+      "nome": "Freijo Natura",
+      "src": "fibraplac/freijonatura.jpg",
+      "marca": {
+        "nome": "Fibraplac",
+        "src":  "fibraplac/fibraplac.png"
+      }
+    }
+
+]
