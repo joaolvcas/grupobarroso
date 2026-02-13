@@ -4,6 +4,7 @@
       "textura": "cristalo",
       "nome": "Branco Diamante",
       "src": "duratex/brancodiamante.jpg",
+      "descontinuado": false,
       "marca": {
         "nome": "Duratex",
         "src":  "duratex/duratex.png"
@@ -14,6 +15,7 @@
       "textura": "trama",
       "nome": "Branco",
       "src": "duratex/brancotrama.jpg",
+      "descontinuado": false,
       "marca": {
         "nome": "Duratex",
         "src":  "duratex/duratex.png"
@@ -24,6 +26,7 @@
       "textura": "cristalo",
       "nome": "Cinza Sagrado",
       "src": "duratex/cinzasagrado.jpg",
+      "descontinuado": false,
       "marca": {
         "nome": "Duratex",
         "src":  "duratex/duratex.png"
@@ -34,6 +37,7 @@
       "textura": "cristalo",
       "nome": "Gianduia",
       "src": "duratex/gianduia.webp",
+      "descontinuado": false,
       "marca": {
         "nome": "Duratex",
         "src":  "duratex/duratex.png"
@@ -44,6 +48,7 @@
       "textura": "cristalo",
       "nome": "Opala",
       "src": "duratex/opala.webp",
+      "descontinuado": false,
       "marca": {
         "nome": "Duratex",
         "src":  "duratex/duratex.png"
@@ -54,6 +59,7 @@
       "textura": "cristalo",
       "nome": "Preto",
       "src": "duratex/preto.jpg",
+      "descontinuado": false,
       "marca": {
         "nome": "Duratex",
         "src":  "duratex/duratex.png"
@@ -64,6 +70,7 @@
       "textura": "cristalo",
       "nome": "Titânio",
       "src": "duratex/titanio.jpg",
+      "descontinuado": false,
       "marca": {
         "nome": "Duratex",
         "src":  "duratex/duratex.png"

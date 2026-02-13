@@ -1,0 +1,57 @@
+[
+  {
+    "id": "amarelogema",
+    "textura": "lacca ad",
+    "nome": "Amarelo Gema",
+    "src": "eucatex/amarelogema.jpg",
+    "descontinuado": false,
+    "marca": {
+      "nome": "Eucatex",
+      "src": "eucatex/eucatex.png"
+    }
+  },
+  {
+    "id": "branconeve",
+    "textura": "lacca ad",
+    "nome": "Branco Neve",
+    "src": "eucatex/branconeve.jpg",
+    "descontinuado": false,
+    "marca": {
+      "nome": "Eucatex",
+      "src": "eucatex/eucatex.png"
+    }
+  },
+  {
+    "id": "cinzaitalia",
+    "textura": "lacca ad",
+    "nome": "Cinza Itália",
+    "src": "eucatex/cinzaitalia.jpg",
+    "descontinuado": false,
+    "marca": {
+      "nome": "Eucatex",
+      "src": "eucatex/eucatex.png"
+    }
+  },
+  {
+    "id": "pretoonix",
+    "textura": "lacca ad",
+    "nome": "Preto Ônix",
+    "src": "eucatex/pretoonix.jpg",
+    "descontinuado": false,
+    "marca": {
+      "nome": "Eucatex",
+      "src": "eucatex/eucatex.png"
+    }
+  },
+  {
+    "id": "verdebelagio",
+    "textura": "lacca ad",
+    "nome": "Verde Belágio",
+    "src": "eucatex/verdebelagio.jpg",
+    "descontinuado": true,
+    "marca": {
+      "nome": "Eucatex",
+      "src": "eucatex/eucatex.png"
+    }
+  }
+]
