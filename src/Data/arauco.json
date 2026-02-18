@@ -40,6 +40,16 @@
       }
     },
     {
+      "id": "petar",
+      "textura": "bold",
+      "nome": "Petar",
+      "src": "arauco/petarbold.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
       "id": "pauferro",
       "textura": "trend",
       "nome": "Pau Ferro",
@@ -54,6 +64,7 @@
       "textura": "nature",
       "nome": "Bambu",
       "src": "arauco/bambunature.jpg",
+      "descontinuado": true,
       "marca": {
         "nome": "Arauco",
         "src":  "arauco/arauco.png"
@@ -154,6 +165,7 @@
       "textura": "couro",
       "nome": "Búfalo",
       "src": "arauco/bufalocouro.jpg",
+      "descontinuado": true,
       "marca": {
         "nome": "Arauco",
         "src":  "arauco/arauco.png"
@@ -194,6 +206,7 @@
       "textura": "chess",
       "nome": "Canelato",
       "src": "arauco/canelatochess.jpg",
+      "descontinuado": true,
       "marca": {
         "nome": "Arauco",
         "src":  "arauco/arauco.png"
@@ -383,7 +396,7 @@
       "id": "lourofreijo",
       "textura": "poro",
       "nome": "Louro Freijó",
-      "src": "arauco/lourofreijoporo.jpg",
+      "src": "arauco/lourofreijoporo.webp",
       "marca": {
         "nome": "Arauco",
         "src":  "arauco/arauco.png"
@@ -424,16 +437,6 @@
       "textura": "matt",
       "nome": "Oceano",
       "src": "arauco/oceanomatt.jpg",
-      "marca": {
-        "nome": "Arauco",
-        "src":  "arauco/arauco.png"
-      }
-    },
-    {
-      "id": "petar",
-      "textura": "bold",
-      "nome": "Petar",
-      "src": "arauco/petarbold.jpg",
       "marca": {
         "nome": "Arauco",
         "src":  "arauco/arauco.png"

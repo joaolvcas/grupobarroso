@@ -13,3 +13,12 @@
     font-size: 4vw;
     color: #000;
 }
+
+@media (max-width: 950px) {
+
+.titulo {
+    width: 40%;
+    font-size: 8vw;
+}
+
+}

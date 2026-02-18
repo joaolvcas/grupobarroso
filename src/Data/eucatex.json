@@ -11,6 +11,17 @@
     }
   },
   {
+    "id": "verdebelagio",
+    "textura": "lacca ad",
+    "nome": "Verde Belágio",
+    "src": "eucatex/verdebelagio.jpg",
+    "descontinuado": true,
+    "marca": {
+      "nome": "Eucatex",
+      "src": "eucatex/eucatex.png"
+    }
+  },
+  {
     "id": "branconeve",
     "textura": "lacca ad",
     "nome": "Branco Neve",
@@ -38,17 +49,6 @@
     "nome": "Preto Ônix",
     "src": "eucatex/pretoonix.jpg",
     "descontinuado": false,
-    "marca": {
-      "nome": "Eucatex",
-      "src": "eucatex/eucatex.png"
-    }
-  },
-  {
-    "id": "verdebelagio",
-    "textura": "lacca ad",
-    "nome": "Verde Belágio",
-    "src": "eucatex/verdebelagio.jpg",
-    "descontinuado": true,
     "marca": {
       "nome": "Eucatex",
       "src": "eucatex/eucatex.png"
