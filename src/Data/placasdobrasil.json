@@ -1,15 +1,5 @@
 [
   {
-    "id": "poente",
-    "textura": "tear",
-    "nome": "Poente",
-    "src": "placasdobrasil/poentetear.png",
-    "marca": {
-      "nome": "Placas do Brasil",
-      "src":  "placasdobrasil/placasdobrasil.png"
-    }
-  },
-  {
     "id": "elmopalmareslinheiro",
     "textura": "linheiro",
     "nome": "Elmo Palmares",
@@ -145,6 +135,16 @@
     "nome": "Pimenta do Reino",
     "src": "placasdobrasil/pimentadoreinotear.png",
     "miniatura": "placasdobrasil/pitangaMiniatura.png",
+    "marca": {
+      "nome": "Placas do Brasil",
+      "src":  "placasdobrasil/placasdobrasil.png"
+    }
+  },
+    {
+    "id": "poente",
+    "textura": "tear",
+    "nome": "Poente",
+    "src": "placasdobrasil/poentetear.png",
     "marca": {
       "nome": "Placas do Brasil",
       "src":  "placasdobrasil/placasdobrasil.png"

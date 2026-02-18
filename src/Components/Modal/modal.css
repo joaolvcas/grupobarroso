@@ -162,9 +162,25 @@
 
 @media (min-width: 950px) {
 
+  .imageWrapper {
+  width: 90%;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+}
+
 .ProductImage{
   height: 45vh;
   width: 35vw;
+  border-radius: 20px;
+  background: #bdbdbdad;
+}
+
+.ProductImage2 {
+  height: 45vh;
+  width: 35vw;
+  display: block;
   border-radius: 20px;
   background: #bdbdbdad;
 }

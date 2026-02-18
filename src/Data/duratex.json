@@ -1,9 +1,10 @@
 [
+    
     {
-      "id": "brancodiamante",
+      "id": "titanio",
       "textura": "cristalo",
-      "nome": "Branco Diamante",
-      "src": "duratex/brancodiamante.jpg",
+      "nome": "Titânio",
+      "src": "duratex/titanio.jpg",
       "descontinuado": false,
       "marca": {
         "nome": "Duratex",
@@ -11,10 +12,10 @@
       }
     },
     {
-      "id": "brancotrama",
-      "textura": "trama",
-      "nome": "Branco",
-      "src": "duratex/brancotrama.jpg",
+      "id": "preto",
+      "textura": "cristalo",
+      "nome": "Preto",
+      "src": "duratex/preto.jpg",
       "descontinuado": false,
       "marca": {
         "nome": "Duratex",
@@ -44,32 +45,32 @@
       }
     },
     {
+      "id": "brancodiamante",
+      "textura": "cristalo",
+      "nome": "Branco Diamante",
+      "src": "duratex/brancodiamante.jpg",
+      "descontinuado": false,
+      "marca": {
+        "nome": "Duratex",
+        "src":  "duratex/duratex.png"
+      }
+    },
+    {
+      "id": "brancotrama",
+      "textura": "trama",
+      "nome": "Branco",
+      "src": "duratex/brancotrama.jpg",
+      "descontinuado": false,
+      "marca": {
+        "nome": "Duratex",
+        "src":  "duratex/duratex.png"
+      }
+    },
+    {
       "id": "opala",
       "textura": "cristalo",
       "nome": "Opala",
       "src": "duratex/opala.webp",
-      "descontinuado": false,
-      "marca": {
-        "nome": "Duratex",
-        "src":  "duratex/duratex.png"
-      }
-    },
-    {
-      "id": "preto",
-      "textura": "cristalo",
-      "nome": "Preto",
-      "src": "duratex/preto.jpg",
-      "descontinuado": false,
-      "marca": {
-        "nome": "Duratex",
-        "src":  "duratex/duratex.png"
-      }
-    },
-    {
-      "id": "titanio",
-      "textura": "cristalo",
-      "nome": "Titânio",
-      "src": "duratex/titanio.jpg",
       "descontinuado": false,
       "marca": {
         "nome": "Duratex",

@@ -1,5 +1,95 @@
 [
     {
+      "id": "atenna",
+      "textura": "liso",
+      "nome": "Atenna",
+      "src": "arauco/atennaliso.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "reali",
+      "textura": "liso",
+      "nome": "Reali",
+      "src": "arauco/realiliso.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "nogalterracota",
+      "textura": "bold",
+      "nome": "Nogal Terracota",
+      "src": "arauco/nogalterracotabold.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+   {
+      "id": "nocenaturale",
+      "textura": "nature",
+      "nome": "Noce Naturale",
+      "src": "arauco/nocenaturalenature.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "pauferro",
+      "textura": "trend",
+      "nome": "Pau Ferro",
+      "src": "arauco/pauferrotrend.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+        {
+      "id": "bambu",
+      "textura": "nature",
+      "nome": "Bambu",
+      "src": "arauco/bambunature.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+     {
+      "id": "madeiral",
+      "textura": "vert",
+      "nome": "Madeiral",
+      "src": "arauco/madeiralvert.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+        {
+      "id": "tekaartico",
+      "textura": "nature",
+      "nome": "Teka Ártico",
+      "src": "arauco/tekaarticonature.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
+      "id": "orla",
+      "textura": "vert",
+      "nome": "Orla",
+      "src": "arauco/orlavert.jpg",
+      "marca": {
+        "nome": "Arauco",
+        "src":  "arauco/arauco.png"
+      }
+    },
+    {
       "id": "amendoeira",
       "textura": "bold",
       "nome": "Amendoeira",
@@ -20,16 +110,6 @@
       }
     },
     {
-      "id": "atenna",
-      "textura": "liso",
-      "nome": "Atenna",
-      "src": "arauco/atennaliso.jpg",
-      "marca": {
-        "nome": "Arauco",
-        "src":  "arauco/arauco.png"
-      }
-    },
-    {
       "id": "atlantica",
       "textura": "trend",
       "nome": "Atlantica",
@@ -44,16 +124,6 @@
       "textura": "matt",
       "nome": "Azul Sereno",
       "src": "arauco/azulserenomatt.jpg",
-      "marca": {
-        "nome": "Arauco",
-        "src":  "arauco/arauco.png"
-      }
-    },
-    {
-      "id": "bambu",
-      "textura": "nature",
-      "nome": "Bambu",
-      "src": "arauco/bambunature.jpg",
       "marca": {
         "nome": "Arauco",
         "src":  "arauco/arauco.png"
@@ -103,7 +173,7 @@
       "id": "caffelate",
       "textura": "matt",
       "nome": "Caffelate",
-      "src": "arauco/caffelatematt.webp",
+      "src": "arauco/cafelattematt.webp",
       "marca": {
         "nome": "Arauco",
         "src":  "arauco/arauco.png"
@@ -112,7 +182,7 @@
     {
       "id": "canela",
       "textura": "chess",
-      "nome": "Areal",
+      "nome": "Canela",
       "src": "arauco/canelachess.jpg",
       "marca": {
         "nome": "Arauco",
@@ -132,7 +202,7 @@
     {
       "id": "carvalho",
       "textura": "poro",
-      "nome": "Areal",
+      "nome": "Carvalho",
       "src": "arauco/carvalhoporo.jpg",
       "marca": {
         "nome": "Arauco",
@@ -152,8 +222,8 @@
     {
       "id": "cinzacristal",
       "textura": "chess",
-      "nome": "Areal",
-      "src": "arauco/cinzacristalchess.jpg",
+      "nome": "Cinza Cristal",
+      "src": "arauco/cinzacristalchess.jpeg",
       "marca": {
         "nome": "Arauco",
         "src":  "arauco/arauco.png"
@@ -163,7 +233,7 @@
       "id": "cinzapuro",
       "textura": "matt",
       "nome": "Cinza Puro",
-      "src": "arauco/cinzapuromatt.jpg",
+      "src": "arauco/cinzapuromatt.png",
       "marca": {
         "nome": "Arauco",
         "src":  "arauco/arauco.png"
@@ -192,18 +262,8 @@
     {
       "id": "damasco",
       "textura": "matt",
-      "nome": "Areal",
-      "src": "arauco/dasmascomatt.jpg",
-      "marca": {
-        "nome": "Arauco",
-        "src":  "arauco/arauco.png"
-      }
-    },
-    {
-      "id": "areal",
-      "textura": "bold",
-      "nome": "Areal",
-      "src": "arauco/arealbold.jpg",
+      "nome": "Damasco",
+      "src": "arauco/damascomatt.jpg",
       "marca": {
         "nome": "Arauco",
         "src":  "arauco/arauco.png"
@@ -213,7 +273,7 @@
       "id": "ebano",
       "textura": "chess",
       "nome": "Ebano",
-      "src": "arauco/ebanochess.jpg",
+      "src": "arauco/ebanochess.webp",
       "marca": {
         "nome": "Arauco",
         "src":  "arauco/arauco.png"
@@ -233,7 +293,7 @@
       "id": "grafito",
       "textura": "chess",
       "nome": "Grafito",
-      "src": "arauco/grafitochess.webp",
+      "src": "arauco/grafitochess.jpg",
       "marca": {
         "nome": "Arauco",
         "src":  "arauco/arauco.png"
@@ -242,7 +302,7 @@
     {
       "id": "gris",
       "textura": "chess",
-      "nome": "Areal",
+      "nome": "Gris",
       "src": "arauco/grischess.jpg",
       "marca": {
         "nome": "Arauco",
@@ -273,7 +333,7 @@
       "id": "jequitiba",
       "textura": "trend",
       "nome": "Jequitiba",
-      "src": "arauco/jequitibatrend.jpeg",
+      "src": "arauco/jequitiba.jpg",
       "marca": {
         "nome": "Arauco",
         "src":  "arauco/arauco.png"
@@ -283,7 +343,7 @@
       "id": "kashimir",
       "textura": "chess",
       "nome": "Kashimir",
-      "src": "arauco/kashimirchess.webp",
+      "src": "arauco/kashimirchess.jpg",
       "marca": {
         "nome": "Arauco",
         "src":  "arauco/arauco.png"
@@ -330,16 +390,6 @@
       }
     },
     {
-      "id": "madeiral",
-      "textura": "vert",
-      "nome": "Madeiral",
-      "src": "arauco/madeiralvert.jpg",
-      "marca": {
-        "nome": "Arauco",
-        "src":  "arauco/arauco.png"
-      }
-    },
-    {
       "id": "maragogi",
       "textura": "matt",
       "nome": "Maragogi",
@@ -354,26 +404,6 @@
       "textura": "bold",
       "nome": "Maraú",
       "src": "arauco/maraubold.jpg",
-      "marca": {
-        "nome": "Arauco",
-        "src":  "arauco/arauco.png"
-      }
-    },
-    {
-      "id": "nocenaturale",
-      "textura": "nature",
-      "nome": "Noce Naturale",
-      "src": "arauco/nocenaturalenature.jpg",
-      "marca": {
-        "nome": "Arauco",
-        "src":  "arauco/arauco.png"
-      }
-    },
-    {
-      "id": "nogalterracota",
-      "textura": "bold",
-      "nome": "Nogal Terracota",
-      "src": "arauco/nogalterracotabold.jpg",
       "marca": {
         "nome": "Arauco",
         "src":  "arauco/arauco.png"
@@ -400,40 +430,10 @@
       }
     },
     {
-      "id": "orla",
-      "textura": "vert",
-      "nome": "Orla",
-      "src": "arauco/orlavert.jpg",
-      "marca": {
-        "nome": "Arauco",
-        "src":  "arauco/arauco.png"
-      }
-    },
-    {
-      "id": "pauferro",
-      "textura": "trend",
-      "nome": "Pau Ferro",
-      "src": "arauco/pauferrotrend.jpg",
-      "marca": {
-        "nome": "Arauco",
-        "src":  "arauco/arauco.png"
-      }
-    },
-    {
       "id": "petar",
       "textura": "bold",
       "nome": "Petar",
       "src": "arauco/petarbold.jpg",
-      "marca": {
-        "nome": "Arauco",
-        "src":  "arauco/arauco.png"
-      }
-    },
-    {
-      "id": "reali",
-      "textura": "liso",
-      "nome": "Reali",
-      "src": "arauco/realiliso.jpg",
       "marca": {
         "nome": "Arauco",
         "src":  "arauco/arauco.png"
@@ -453,7 +453,7 @@
       "id": "salvia",
       "textura": "matt",
       "nome": "Salvia",
-      "src": "arauco/salviamatt.webp",
+      "src": "arauco/salviamatt.jpg",
       "marca": {
         "nome": "Arauco",
         "src":  "arauco/arauco.png"
@@ -464,16 +464,6 @@
       "textura": "vert",
       "nome": "Silicio",
       "src": "arauco/siliciovert.webp",
-      "marca": {
-        "nome": "Arauco",
-        "src":  "arauco/arauco.png"
-      }
-    },
-    {
-      "id": "tekaartico",
-      "textura": "nature",
-      "nome": "Teka Ártico",
-      "src": "arauco/tekarticonature.jpg",
       "marca": {
         "nome": "Arauco",
         "src":  "arauco/arauco.png"

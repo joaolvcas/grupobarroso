@@ -18,7 +18,7 @@ import Fibraplac from "../../../../src/assets/fibraplac.png";
 
 function BrandOptions() {
   const { setBrand } = useContext(GlobalContext);
-  const [ativa, setAtiva] = useState(null);
+  const [ativa, setAtiva] = useState("placas");
 
   const marcas = [
     { id: 'placas', img: MiniaturaPlacas, miniatura: Placas},

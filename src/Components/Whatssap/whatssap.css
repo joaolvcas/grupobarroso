@@ -6,6 +6,8 @@
     border-radius: 20px;
     margin-top: 40px;
     background-color: #44dd5617;
+    height: 600px;
+    align-items: center;
 }
 
 .button {
@@ -19,8 +21,9 @@
 }
 
 .contacts {
-    overflow: hidden;
-    max-height: 0;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
 }
 
 .section.open .contacts {
@@ -33,16 +36,19 @@
     display: flex;
     max-width: 90%;
     align-items: center;
-    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 10px;
 }
 
 .NameButton {
+    margin: 0;
     color: white;
     font-size: 26px;
     font-weight: 600;
 }
 
 .Phone {
+    margin: 0;
     color: black;
     font-size: 16px;
     font-weight: 600;
@@ -50,12 +56,29 @@
 
 .Bag {
     display: flex;
-    align-items: center;
-    gap: 8px;
+    flex-direction: column;
+    margin-left: 8px;
 }
 
 .City {
     color: black;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
+}
+
+.location {
+    margin-top: 20px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;      /* largura e altura iguais = quadrado */
+    border-radius: 50%; /* círculo perfeito */
+    overflow: hidden;   /* corta o excesso */
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* mantém proporção e preenche o círculo */
 }

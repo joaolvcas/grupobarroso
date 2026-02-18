@@ -2,6 +2,14 @@ import { useState } from "react";
 import "./whatssap.css";
 import { FiMessageSquare, FiArrowRight } from "react-icons/fi";
 
+import Viviane from '../../assets/vendedores/viviane.jpeg'
+import Nayara from '../../assets/vendedores/nayara.jpeg'
+import Leyde from '../../assets/vendedores/leyde.jpeg'
+import Beatriz from '../../assets/vendedores/beatriz.jpeg'
+import Tiago from '../../assets/vendedores/tiago.jpeg'
+import Caio from '../../assets/vendedores/caio.png'
+import Junior from '../../assets/vendedores/junior.png'
+
 function Whatssap({mdf}) {
   const [open, setOpen] = useState(true);
 
@@ -19,33 +27,91 @@ function Whatssap({mdf}) {
       </div>
 
       <div className="contacts">
-        <div className="contactItem"  onClick={() => window.open(`https://wa.me/558999300880?text=${mensagem}`, "_blank")}>
-          <div className="Bag">
-              <FiMessageSquare />
-              <p className="Phone">(89) 9930-0880</p>
+        <div className="location">
+          <p className="City">Teresina e região</p>
 
+        <div className="contactItem"  onClick={() => window.open(`https://wa.me/558999850131?text=${mensagem}`, "_blank")}>
+           <div className="avatar">
+             <img src={Nayara} alt="Foto" />
           </div>
-            <FiArrowRight />
+           <div className="Bag">
+              <p className="Phone">Nayara Alencar</p>
+              <p className="Phone">(89) 9985-0131</p>
+          </div>
+
         </div>
 
-        <div className="contactItem" onClick={() => window.open(`https://wa.me/558999850049?text=${mensagem}`, "_blank")}>
-          <div className="Bag">
-              <FiMessageSquare />
-              <p className="Phone">(89) 9985-0049</p>
-
+        <div className="contactItem"  onClick={() => window.open(`https://wa.me/558999040012?text=${mensagem}`, "_blank")}>
+           <div className="avatar">
+             <img src={Beatriz} alt="Foto" />
           </div>
-            <FiArrowRight />
+           <div className="Bag">
+              <p className="Phone">Beatriz Rocha</p>
+              <p className="Phone">(89) 9904-0012</p>
+          </div>
+
         </div>
-           <div className="contactItem" onClick={() => window.open(`https://wa.me/558999300399?text=${mensagem}`, "_blank")}>
-          <div className="Bag">
-              <FiMessageSquare />
+
+          <div className="contactItem"  onClick={() => window.open(`https://wa.me/558999300399?text=${mensagem}`, "_blank")}>
+           <div className="avatar">
+             <img src={Caio} alt="Foto" />
+          </div>
+           <div className="Bag">
+              <p className="Phone">Caio Barros</p>
               <p className="Phone">(89) 9930-0399</p>
-
           </div>
-            <FiArrowRight />
-        </div>
-      </div>
 
+        </div>
+
+              <div className="contactItem"  onClick={() => window.open(`https://wa.me/558999040015?text=${mensagem}`, "_blank")}>
+           <div className="avatar">
+             <img src={Junior} alt="Foto" />
+          </div>
+           <div className="Bag">
+              <p className="Phone">Júnior</p>
+              <p className="Phone">(89) 9904-0015</p>
+          </div>
+
+        </div>
+
+        <div className="location">
+          <p className="City">Picos e região</p>
+          
+        <div className="contactItem"  onClick={() => window.open(`https://wa.me/558999850144?text=${mensagem}`, "_blank")}>
+           <div className="avatar">
+             <img src={Tiago} alt="Foto" />
+          </div>
+           <div className="Bag">
+              <p className="Phone">Tiago Luz</p>
+              <p className="Phone">(89) 99850144</p>
+          </div>
+
+        </div>
+          <div className="contactItem"  onClick={() => window.open(`https://wa.me/558999300880?text=${mensagem}`, "_blank")}>
+           <div className="avatar">
+             <img src={Viviane} alt="Foto" />
+          </div>
+           <div className="Bag">
+              <p className="Phone">Viviane Monteiro</p>
+              <p className="Phone">(89) 9930-0880</p>
+          </div>
+
+        </div>
+
+        <div className="contactItem"  onClick={() => window.open(`https://wa.me/558999850049?text=${mensagem}`, "_blank")}>
+           <div className="avatar">
+             <img src={Leyde} alt="Foto" />
+          </div>
+           <div className="Bag">
+              <p className="Phone">Leyde Daiane</p>
+              <p className="Phone">(89) 9985-0049</p>
+          </div>
+
+        </div>
+        </div>
+
+      </div>
+    </div>
     </div>
   );
 }
