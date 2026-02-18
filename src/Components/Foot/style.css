@@ -1,0 +1,14 @@
+.Foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100vw;
+    background-color: #201e1f;
+}
+
+.logo {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}

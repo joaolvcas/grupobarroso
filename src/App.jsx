@@ -1,5 +1,6 @@
 import Header from './Components/Header/header'
 import Catalogo from './Components/Catalogo'
+import Foot from './Components/Foot'
 import './App.css'
 
 import { GlobalProvider } from "./context/GlobalContext";
@@ -11,6 +12,7 @@ function App() {
     <GlobalProvider>
       <Header />
       <Catalogo />
+      <Foot />
     </GlobalProvider>
   )
 }
