@@ -3,7 +3,7 @@ import "./whatssap.css";
 import { FiMessageSquare, FiArrowRight } from "react-icons/fi";
 
 function Whatssap({mdf}) {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
 
   const mensagem = encodeURIComponent(
   `Olá, gostaria de solicitar um orçamento do mdf ${mdf ?? ""}`
@@ -12,7 +12,7 @@ function Whatssap({mdf}) {
   return (
     <div className={`section ${open ? "open" : ""}`}>
       
-      <div className="button" onClick={() => setOpen(!open)}>
+      <div className="button">
         <p className="NameButton">
           Solicitar Orçamento
         </p>

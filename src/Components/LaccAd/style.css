@@ -1,0 +1,55 @@
+.brilhoTag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  border-radius: 10px;
+  background: #979290a1;
+  font-weight: 600;
+  font-size: 14px;
+  color: #000000;
+  position: relative;
+  overflow: hidden;
+}
+
+.sparkle {
+  position: relative;
+  width: 22px;
+  height: 22px;
+}
+
+.star {
+  position: absolute;
+  color: rgb(28, 126, 255);
+  opacity: 0;
+  transform: scale(0.5) rotate(0deg);
+  animation: brilho 2s infinite ease-in-out;
+}
+
+.star1 {
+  font-size: 18px;
+  left: 0;
+  top: 0;
+}
+
+.star2 {
+  font-size: 12px;
+  right: 0;
+  bottom: 0;
+  animation-delay: 1s;
+}
+
+@keyframes brilho {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) rotate(0deg);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2) rotate(20deg);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.5) rotate(0deg);
+  }
+}

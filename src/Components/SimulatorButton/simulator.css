@@ -24,3 +24,20 @@
     font-size: 26px;
     font-weight: 600;
 }
+
+.ButtonInavalible {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    height: 60px;
+    width: 90%;
+    border-radius: 25px;
+    border: none;
+
+    background: #201e1f;
+    color: white;
+
+    box-shadow: 0 4px 15px rgba(248, 112, 0, 0.4);
+}

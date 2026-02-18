@@ -68,9 +68,32 @@
 
 .ProductImage{
   height: 40vh;
-  width: 90%;
+  width: 100%;
+  display: block;
   border-radius: 20px;
   background: #bdbdbdad;
+}
+
+.ProductImage2 {
+  height: 40vh;
+  width: 90%;
+  display: block;
+  border-radius: 20px;
+  background: #bdbdbdad;
+}
+
+.brilhoOverlay {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  z-index: 10;
+}
+
+.imageWrapper {
+  width: 90%;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
 }
 
 .ProductName {
@@ -110,3 +133,41 @@
     align-items: center;
     font-size: 17px;
 }
+
+.imageWrapper::after {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -75%;
+  width: 50%;
+  height: 200%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: rotate(25deg);
+  animation: shine 3s infinite;
+}
+
+@keyframes shine {
+  0% {
+    left: -75%;
+  }
+  100% {
+    left: 125%;
+  }
+}
+
+@media (min-width: 950px) {
+
+.ProductImage{
+  height: 45vh;
+  width: 35vw;
+  border-radius: 20px;
+  background: #bdbdbdad;
+}
+
+}
+

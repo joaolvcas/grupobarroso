@@ -1,3 +1,4 @@
+import BrilhoTag from "../LaccAd";
 import SimulatorButton from "../SimulatorButton";
 import Whatssap from "../Whatssap";
 import "./modal.css";
@@ -5,7 +6,16 @@ import "./modal.css";
 import { FiArrowDown, FiAlertCircle  } from "react-icons/fi";
 
 function Modal({ isOpen, onClose, children, Product }) {
-    console.log(Product)
+
+  const marca = Product?.marca?.nome
+
+  const laccad =
+   marca == 'Eucatex'
+    ? true
+    : marca == 'Duratex'
+    ? true
+    : false
+
   return (
     <>
       <div
@@ -20,11 +30,26 @@ function Modal({ isOpen, onClose, children, Product }) {
           <div className={`${isOpen ? "" : "isClosed"}`} onClick={onClose}>
             <FiArrowDown  size={40} color="f87000" />
           </div>
-           <img
-            src={Product?.src}
-            alt={Product?.nome}
-            className="ProductImage"
-          />
+          {laccad ? (
+          <div className="imageWrapper">
+            <img
+              src={Product?.src}
+              alt={Product?.nome}
+              className="ProductImage"
+            />
+
+          <div className="brilhoOverlay">
+          <BrilhoTag />
+           </div>
+          </div>
+          ):(
+            <img
+              src={Product?.src}
+              alt={Product?.nome}
+              className="ProductImage2"
+            />
+          )}
+
           <div className="ProductName">
              <h1>{Product?.nome}</h1>
              <p className="textura" >{`/${Product?.textura}`}</p>
@@ -44,9 +69,7 @@ function Modal({ isOpen, onClose, children, Product }) {
           </p>
           </div> : <></>
           }
-
-
-          <SimulatorButton title={"Simular Ambientes"} />
+          <SimulatorButton title={"Simular Ambientes"} href={Product?.marca?.nome} />
           <Whatssap mdf={Product?.nome}/>
           </div>
         </div>
