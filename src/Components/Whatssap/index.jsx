@@ -20,11 +20,9 @@ function Whatssap({mdf}) {
   return (
     <div className={`section ${open ? "open" : ""}`}>
       
-      <div className="button">
-        <p className="NameButton">
+        <p id="NameButton">
           Solicitar Orçamento
         </p>
-      </div>
 
       <div className="contacts">
         <div className="location">

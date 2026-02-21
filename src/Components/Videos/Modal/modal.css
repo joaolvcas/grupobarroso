@@ -1,0 +1,76 @@
+.modalBackdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 100;
+}
+
+.modalBackdrop.active {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.modal {
+    position: fixed;
+    top: 80px;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%) translateY(100%);
+    width: 100vw;
+
+    background: white;
+    border-radius: 20px 20px 0 0;
+
+    transition: transform 0.4s ease;
+    z-index: 1000;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden; 
+}
+
+.modalContent {
+    flex: 1;    
+    overflow-y: auto;  
+    -webkit-overflow-scrolling: touch;
+}
+
+.modalInner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+.modal.active {
+    transform: translateX(-50%) translateY(0);
+}
+
+.isClosed {
+    display: none;
+}
+
+.ProdutoNome {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.Description {
+    width: 90%;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.ProductImage2 {
+  height: 40vh;
+  width: 90%;
+  display: block;
+  border-radius: 20px;
+  background: #bdbdbdad;
+}
+

@@ -16,7 +16,7 @@ function App() {
          <Route path="/videos" element={<Videos />} />
       </Routes>
 
-      <Foot />
+    {/* <Foot /> */}
     </GlobalProvider>
   )
 }

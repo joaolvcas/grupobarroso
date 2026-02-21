@@ -3,7 +3,7 @@
         "id": "001",
         "nome": "Caixa de Ferramentas Dupla",
         "src": "produtos/caixadeferramentas.webp",
-        "description": "",
+        "description": "Possui 3 rodas e haste para movimentação. Material: polipropileno. Pode ser dividida em duas partes. Capacidade da parte superior: 10kg. Capacidade da parte inferior: 15kg. Compartimentos internos e externos, além de ganchos laterais e espaço para cadeado.",
         "marca": {
             "id": "001",
             "nome": "Renna"
@@ -12,14 +12,14 @@
             {
                 "id": "001",
                 "nome": "",
-                "src": ""
+                "src": "https://www.youtube.com/embed/HRCI_RE-Ud4?si=J1SssGpSfxgmv_Ue"
             }
         ]
     },
         {
         "id": "002",
         "nome": "Aparador de Fita de Borda",
-        "src": "",
+        "src": "produtos/aparadordefitadeborda.jpg",
         "description": "",
         "marca": {
             "id": "002",
