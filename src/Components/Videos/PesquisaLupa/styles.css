@@ -1,0 +1,31 @@
+.PesquisaLupa {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 90%;
+    height: 40px;
+    margin-bottom: 12px;
+    border: 2px solid rgb(75, 75, 75);
+    border-radius: 15px;
+    padding: 2px;
+}
+
+.button {
+    display: flex;
+    width: 12%;
+    height: 100%;
+    border-radius: 15px;
+    border: 1px solid  rgb(75, 75, 75);
+    background-color: #fff;
+}
+
+.button:hover {
+    background-color: #f87000;
+    transform: scale(1.03);
+}
+
+@media (min-width: 950px) {
+    .PesquisaLupa {
+        width: 40%;
+    }
+}

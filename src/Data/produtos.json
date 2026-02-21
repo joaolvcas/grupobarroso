@@ -1,0 +1,36 @@
+[
+    {
+        "id": "001",
+        "nome": "Caixa de Ferramentas Dupla",
+        "src": "produtos/caixadeferramentas.webp",
+        "description": "",
+        "marca": {
+            "id": "001",
+            "nome": "Renna"
+        },
+        "videos": [
+            {
+                "id": "001",
+                "nome": "",
+                "src": ""
+            }
+        ]
+    },
+        {
+        "id": "002",
+        "nome": "Aparador de Fita de Borda",
+        "src": "",
+        "description": "",
+        "marca": {
+            "id": "002",
+            "nome": "Barroso"
+        },
+        "videos": [
+            {
+                "id": "002",
+                "nome": "",
+                "src": ""
+            }
+        ]
+    }
+]

@@ -8,7 +8,7 @@ function Foot() {
 
 
 return (
-<div className='Foot'>
+<div className='Foot' id='foot' >
         <img src={logoBarroso} className='logo' />
 </div>
 );
