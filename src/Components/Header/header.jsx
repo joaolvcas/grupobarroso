@@ -1,15 +1,67 @@
-import './header.css'
-import AniversarioBarroso from '../../../src/assets/aniversario.jpg'
-import LogoBranca from '../../../src/assets/logobarrosobranca.jpg'
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import "./header.css";
+import LogoBranca from "../../../src/assets/logobarrosobranca.jpg";
+import { FiMenu, FiX } from "react-icons/fi";
+import { FaHome, FaIndustry, FaBuilding } from "react-icons/fa";
+
+import MDFS from '../../assets/2.jpg'
+import Ferramentas from '../../assets/3.jpg'
+import Institucional from '../../assets/4.jpg'
 
 function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const navigate = useNavigate();
+
+  const goTo = (path) => {
+    navigate(path);
+    setMenuOpen(false);
+  };
 
   return (
-<div className="header">
-    <img src={LogoBranca} alt="Logo Aniversario 45 anos da Barroso" className='Logo' />
-    <img src={AniversarioBarroso} alt="Logo Aniversario 45 anos da Barroso" className='LogoAniversario' />
-</div>
-  )
+    <>
+      <div className="header">
+        <img src={LogoBranca} alt="Logo Barroso" className="Logo" />
+
+        <FiMenu
+          size={35}
+          className="Menu"
+          onClick={() => setMenuOpen(true)}
+        />
+      </div>
+
+      <div
+        className={`menuOverlay ${menuOpen ? "active" : ""}`}
+        onClick={() => setMenuOpen(false)}
+      />
+
+      <div className={`menuDrawer ${menuOpen ? "open" : ""}`}>
+        <div className="drawerHeader">
+          <h3>Departamentos</h3>
+          <FiX size={28} onClick={() => setMenuOpen(false)} />
+        </div>
+
+        <div className="drawerContent">
+
+          <div className="menuCard" onClick={() => goTo("/")}>
+            <img src={MDFS} className="IconImage" />
+            <span>MDF's</span>
+          </div>
+
+          <div className="menuCard" onClick={() => goTo("/videos")}>
+             <img src={Ferramentas} className="IconImage" />
+            <span>Ferragens e Ferramentas</span>
+          </div>
+
+          <div className="menuCard" onClick={() => goTo("/institucional")}>
+             <img src={Institucional} className="IconImage" />
+            <span>Institucional</span>
+          </div>
+
+        </div>
+      </div>
+    </>
+  );
 }
 
-export default Header
+export default Header;
