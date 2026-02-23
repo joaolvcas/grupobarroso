@@ -1,11 +1,13 @@
 import Whatssap from "../../Whatssap";
 import "./modal.css";
+import { useState } from "react";
 
 import { FiArrowDown, FiCopy } from "react-icons/fi";
 
 function Modal({ Produto, isOpen, onClose }) {
+  const [loading, setLoading] = useState(true);
 
-const link = Produto.videos[0].src
+  const link = Produto.videos[0].src
 
   return (
     <>
@@ -22,14 +24,29 @@ const link = Produto.videos[0].src
                <FiArrowDown  size={40} color="f87000" />
             </div>
             <h1 className="ProdutoNome">{Produto?.nome}</h1>
-            <iframe width="90%" height="280" 
-            src={link}
-            title="YouTube video player" 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            referrerpolicy="strict-origin-when-cross-origin" 
-            allowfullscreen
-            ></iframe>
+    <div className="videoContainer">
+      
+      {loading && (
+        <div className="loadingOverlay">
+          <div className="spinner"></div>
+        </div>
+      )}
+
+      <iframe
+        width="90%"
+        height="280"
+        src={link}
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerPolicy="strict-origin-when-cross-origin"
+        allowFullScreen
+        style={{
+          border: "none"
+        }}
+        onLoad={() => setLoading(false)}
+      ></iframe>
+
+    </div>
             
             <p className="Description">{Produto?.description}</p>
             <img
