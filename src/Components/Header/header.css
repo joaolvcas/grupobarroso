@@ -92,7 +92,6 @@
 }
 
 .menuCard {
-  background: #ffffff;
   border-radius: 12px;
   padding: 16px;
   display: flex;
@@ -118,7 +117,7 @@
 }
 
 .IconImage {
-  border-radius: 50%;
+    border-radius: 70%;
     width: 70px;
     height: 70px;
     object-fit: contain;

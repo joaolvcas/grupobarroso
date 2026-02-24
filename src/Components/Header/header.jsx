@@ -3,11 +3,12 @@ import { useNavigate } from "react-router-dom";
 import "./header.css";
 import LogoBranca from "../../../src/assets/logobarrosobranca.jpg";
 import { FiMenu, FiX } from "react-icons/fi";
-import { FaHome, FaIndustry, FaBuilding } from "react-icons/fa";
 
 import MDFS from '../../assets/2.jpg'
 import Ferramentas from '../../assets/3.jpg'
 import Institucional from '../../assets/4.jpg'
+import Portas from '../../assets/5.jpg'
+import Maquina from '../../assets/6.jpg'
 
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -53,10 +54,20 @@ function Header() {
             <span>Ferragens e Ferramentas</span>
           </div>
 
+          <div className="menuCard" onClick={() => goTo("/portas")}>
+             <img src={Portas} className="IconImage" />
+            <span>Portas</span>
+          </div>
+
+          <div className="menuCard" onClick={() => goTo("/maquinas")}>
+             <img src={Maquina} className="IconImage" />
+            <span>Máquinas</span>
+          </div>            
+
           <div className="menuCard" onClick={() => goTo("/institucional")}>
              <img src={Institucional} className="IconImage" />
             <span>Institucional</span>
-          </div>
+          </div>        
 
         </div>
       </div>
