@@ -16,18 +16,69 @@
             }
         ]
     },
-        {
+    {
         "id": "002",
         "nome": "Aparador de Fita de Borda",
         "src": "produtos/aparadordefitadeborda.jpg",
-        "description": "",
+        "description": "ACABAMENTO PRECISO E SEM REBARBAS\n\nLeve, prática e eficiente, ela remove o excesso de fita de borda com precisão e garante um resultado liso, reto e profissional, mesmo em pequenos espaços.",
         "marca": {
             "id": "002",
             "nome": "Barroso"
         },
         "videos": [
             {
-                "id": "002",
+                "id": "001",
+                "nome": "",
+                "src": ""
+            }
+        ]
+    },
+    {
+        "id": "003",
+        "nome": "Serra Copo 60mm Fast Cut",
+        "src": "produtos/serracopo.webp",
+        "description": "As serras copo Fast Cut da Starrett são ferramentas poderosas e versáteis, capazes de cortar uma grande variedade de materiais. Com um desempenho impressionante de corte em metais, aço inoxidável, ferro fundido, madeira com prego, plástico, acrílico e muito mais, estas serras são uma opção excepcional para qualquer oficina ou site de trabalho.",
+        "marca": {
+            "id": "003",
+            "nome": "Starret"
+        },
+        "videos": [
+            {
+                "id": "001",
+                "nome": "",
+                "src": ""
+            }
+        ]
+    },
+    {
+        "id": "004",
+        "nome": "Palha Indiana Sextavada",
+        "src": "produtos/palhaindiana.png",
+        "description": "As palhas indianas sextavadas são fábricadas manualmente deixando-as com padrões únicos e com um toque de sofisticação. São produzidas a partir da celulose para que possam ter uma maior durabilidade sem perder a sua naturalidade. Com padrões sextavados, as telas deixas um aspecto rústico e ao mesmo tempo inovador quando aplicadas.Essas palhas podem ser utilizadas em diversos trabalhos, tais como móveis, luminárias, bolsas e diversos tipos de artesanato e decorações.",
+        "marca": {
+            "id": "004",
+            "nome": "Xinten"
+        },
+        "videos": [
+            {
+                "id": "001",
+                "nome": "",
+                "src": ""
+            }
+        ]
+    },
+    {
+        "id": "005",
+        "nome": "Serra para fundo de gaveta 06mm",
+        "src": "produtos/serrafundodegaveta06mm.png",
+        "description": "Elaboradas com matéria-prima de excelente qualidade, produzidas com equipamentos com a mais alta tecnologia e respeitando os conceitos de sustentabilidade e normas rígidas europeias de construção.",
+        "marca": {
+            "id": "005",
+            "nome": "Leitz"
+        },
+        "videos": [
+            {
+                "id": "001",
                 "nome": "",
                 "src": ""
             }
