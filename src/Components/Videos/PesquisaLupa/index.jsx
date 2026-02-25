@@ -1,15 +1,17 @@
 import './styles.css'
-import { FiSearch  } from "react-icons/fi";
+import { FiSearch } from "react-icons/fi";
 
-
-function PesquisaLupa() {
-
+function PesquisaLupa({ value, onChange }) {
   return (
-    <div className="PesquisaLupa">
-      <div className='button'>
-        <FiSearch  size={20} />
-      </div>
-    </div>
+      <input
+        type="text"
+        placeholder="Pesquisar por nome ou marca..."
+        value={value}
+        onChange={(e) => onChange(e.target.value)}
+        className='PesquisaLupa'
+      >
+      </input>
+
   )
 }
 
