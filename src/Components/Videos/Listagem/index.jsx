@@ -21,7 +21,6 @@ function Listagem() {
     setModalIsOpen(false)
   }
 
-  // 🔎 filtro
   const produtosFiltrados = useMemo(() => {
     const termo = search.toLowerCase();
 
@@ -34,7 +33,6 @@ function Listagem() {
   return (
     <div className="Listagem">
 
-        {/* Passando props */}
         <PesquisaLupa 
           value={search}
           onChange={setSearch}

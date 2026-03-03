@@ -1,3 +1,4 @@
+import Carrossel from "../../Carrosel";
 import Whatssap from "../../Whatssap";
 import "./modal.css";
 import { useState } from "react";
@@ -25,35 +26,33 @@ function Modal({ Produto, isOpen, onClose }) {
             </div>
             <h1 className="ProdutoNome">{Produto?.nome}</h1>
     <div className="videoContainer">
-      
-      {loading && (
-        <div className="loadingOverlay">
-          <div className="spinner"></div>
-        </div>
-      )}
-
-      <iframe
-        width="90%"
-        height="280"
-        src={link}
-        title="YouTube video player"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerPolicy="strict-origin-when-cross-origin"
-        allowFullScreen
-        style={{
-          border: "none"
-        }}
-        onLoad={() => setLoading(false)}
-      ></iframe>
+    
+     { //</div></div>loading && (
+     //   <div className="loadingOverlay"> 
+      //    <div className="spinner"></div>
+      //  </div>
+    //  )}
+//
+   //    <iframe
+     //   width="90%"
+//height="280"
+  //      src={link}
+     //   title="YouTube video player"
+    //    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+     //   referrerPolicy="strict-origin-when-cross-origin"
+      //  allowFullScreen
+      //  style={{
+       //   border: "none"
+      //  }}
+     //   onLoad={() => setLoading(false)}
+     //</div> ></iframe> 
+     }
 
     </div>
             
             <p className="Description">{Produto?.description}</p>
-            <img
-              src={Produto?.src}
-              alt={Produto?.nome}
-              className="ProductImage2"
-            />
+            <Carrossel imagens={Produto.images} />
+
             <Whatssap mdf={Produto?.nome}/>        
           </div>
         </div>
