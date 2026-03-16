@@ -51,7 +51,7 @@ function Header() {
 
           <div className="menuCard" onClick={() => goTo("/videos")}>
              <img src={Ferramentas} className="IconImage" />
-            <span>Ferragens e Ferramentas</span>
+            <span>Ferragens</span>
           </div>
 
           <div className="menuCard" onClick={() => goTo("/portas")}>
