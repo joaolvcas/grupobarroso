@@ -49,6 +49,11 @@ function Header() {
             <span>Catálogo</span>
           </div>
 
+          <div className="menuCard" onClick={() => goTo("/portas")}>
+            <img src={Portas} className="IconImage" />
+            <span>Portas</span>
+          </div>
+
           <div className="menuCard" onClick={() =>
     window.open("https://youtube.com/@grupobarroso?si=21pDoETU5pK0gxjM", "_blank")
   }>

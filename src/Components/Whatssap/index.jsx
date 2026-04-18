@@ -44,7 +44,7 @@ function Whatssap({mdf}) {
              <img src={Beatriz} alt="Foto" />
           </div>
            <div className="Bag">
-              <p className="Phone">Beatriz Rocha</p>
+              <p className="Phone">Beatriz Moura</p>
               <p className="Phone">(89) 9904-0012</p>
           </div>
 
