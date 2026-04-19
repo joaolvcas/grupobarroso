@@ -10,7 +10,7 @@
    "id": 2,
     "nome": "Porta Cometa Bico",
     "descricao": "0.8x2.10",
-    "preco": "R$ 1500,00",
+    "preco": "R$ 1.150,00",
     "imagem": "portas/02.png"
   },
   {
@@ -29,30 +29,37 @@
   },
   {
     "id": 5,
-    "nome": "Porta Modelo D",
-    "descricao": "Porta clara estilo freijó.",
-    "preco": "R$ 350,00",
+    "nome": "Porta Esp A186",
+    "descricao": "0.60X2.10",
+    "preco": "R$ 300,00",
     "imagem": "portas/05.png"
   },
   {
     "id": 6,
-    "nome": "Porta Modelo D",
-    "descricao": "Porta clara estilo freijó.",
-    "preco": "R$ 350,00",
+    "nome": "Porta de Giro Wengue",
+    "descricao": "0.80x2.10",
+    "preco": "R$ 400,00",
     "imagem": "portas/06.png"
   },
   {
     "id": 7,
-    "nome": "Porta Modelo D",
-    "descricao": "Porta clara estilo freijó.",
-    "preco": "R$ 350,00",
+    "nome": "Porta Macica Angelim",
+    "descricao": "0.70x2.10",
+    "preco": "R$ 770,00",
     "imagem": "portas/07.png"
   },
   {
     "id": 8,
-    "nome": "Porta Modelo D",
-    "descricao": "Porta clara estilo freijó.",
-    "preco": "R$ 350,00",
-    "imagem": "portas/08.webp"
+    "nome": "Porta de Giro Patino Bianco",
+    "descricao": "0.80x2.10",
+    "preco": "R$ 500,00",
+    "imagem": "portas/08.png"
+  },
+  {
+    "id": 8,
+    "nome": "Porta P/ AP Mogno",
+    "descricao": "0.70x2.10",
+    "preco": "R$ 130,00",
+    "imagem": "portas/09.webp"
   }
 ]
