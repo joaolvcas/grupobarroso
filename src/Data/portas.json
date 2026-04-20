@@ -56,10 +56,17 @@
     "imagem": "portas/08.png"
   },
   {
-    "id": 8,
+    "id": 9,
     "nome": "Porta P/ AP Mogno",
     "descricao": "0.70x2.10",
     "preco": "R$ 130,00",
     "imagem": "portas/09.webp"
+  },
+  {
+    "id": 10,
+    "nome": "Porta Asp A527",
+    "descricao": "0.60x2.10",
+    "preco": "R$ 130,00",
+    "imagem": "portas/10.png"
   }
 ]

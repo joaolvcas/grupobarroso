@@ -5,6 +5,7 @@ export default function Portas() {
 
   return (
  <div className="Conteiner">   
+ 
     <div className="catalogo">
       {Lista.map((porta) => (
         <div className="cardPorta" key={porta.id}>
